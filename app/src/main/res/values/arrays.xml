@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_name_restaurant">
+
+        <item>Tomo 2</item>
+        <item>La resurrección de Tomo 2</item>
+        <item>Tomo 2 revolutions</item>
+
+    </string-array>
+
+    <string-array name="list_ciudad_restaurant">
+
+        <item>Barcelona</item>
+        <item>Berga</item>
+        <item>Vallcebre</item>
+
+    </string-array>
+
+    <string-array name="list_zona_restaurant">
+
+        <item>Norte</item>
+        <item>Sud</item>
+        <item>Oeste</item>
+
+    </string-array>
+
+    <string-array name="list_web_restaurant">
+
+    <item>http://www.google.com</item>
+    <item>http://www.themobilebakery.com</item>
+    <item>https://www.facebook.com</item>
+
+</string-array>
+
+    <string-array name="list_img_restaurant">
+
+        <item>ic_restaurant_uno</item>
+        <item>ic_restaurant_dos</item>
+        <item>ic_restaurant_tres</item>
+
+    </string-array>
+
+</resources>
