@@ -28,8 +28,8 @@ public class Util extends Activity {
             for (int i = 0; i < titles.length; i++) {
 
                 data.add(new Restaurant(titles[i],
-                        citys[i],
                         zons[i],
+                        citys[i],
                         webs[i], view.getResources().getIdentifier(imgs[i], "mipmap", view.getPackageName())));
             }
         }

@@ -4,18 +4,13 @@ import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.net.Uri;
-import android.os.Build;
+
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
+
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.widget.Toast;
+
 
 import com.example.benet.restaurantapp.R;
 import com.example.benet.restaurantapp.model.DetailActivity;
@@ -45,6 +40,7 @@ public class MainActivity extends ActionBarActivity implements ManagerFragmentLi
         setContentView(R.layout.activity_main);
 
         initComponents();
+
 
         ManagerFragmentList fragmentList=new ManagerFragmentList();//fuera de las condiciones pq este siempre se cargara
 
@@ -108,10 +104,7 @@ public class MainActivity extends ActionBarActivity implements ManagerFragmentLi
     public void onMyListItemSelected(int position) {
 
         if(mobile){
-            /*
-            Uri uri = Uri.parse(data.get(position).getWeb());
-            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-            startActivity(intent);*/
+
             Intent intent=new Intent(this, DetailActivity.class);
             intent.putExtra(SEND_DATA_DETAIL,data.get(position));
             startActivity(intent);
